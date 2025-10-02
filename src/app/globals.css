@@ -145,4 +145,13 @@
   .base-button:hover::before {
     left: 100%;
   }
+  .box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
 }
+
