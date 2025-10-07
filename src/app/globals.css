@@ -124,7 +124,7 @@
   .base-button {
     padding: 6px;
     background-color: #1d1ac3;
-    border:1px solid green ;
+    border: 1px solid green;
     border-radius: 2px;
     transition: all 0.3s;
     position: relative;
@@ -132,7 +132,7 @@
   }
   .base-button::before {
     content: "";
-    position:absolute;
+    position: absolute;
     top: 0;
     left: -130%;
     width: 100%;
@@ -145,13 +145,33 @@
   .base-button:hover::before {
     left: 100%;
   }
-  .box{
-    height: 300px;
-    width: 300px;
+
+  .dibba {
+    height: 200px;
+    width: 200px;
     background-color: crimson;
     border-radius: 20px;
     padding: 20px;
+    margin: 20px;
   }
-
+  .circle {
+    height: 200px;
+    width: 200px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50%;
+  }
+  .box{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(234, 107, 132);
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
-
