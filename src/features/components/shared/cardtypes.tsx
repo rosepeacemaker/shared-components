@@ -18,3 +18,4 @@ export default function ReusableCard({ title, bgColor,content}: ReusableCardProp
     </Card>
   );
 }
+
