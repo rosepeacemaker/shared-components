@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import {
   DropdownMenu,
@@ -17,7 +17,7 @@ import ButtonStyle from "@/features/components/shared/buttonstyle";
 export default function DropDown() {
   return (
     <div className="flex items-center justify-center p-6 flex-col">
-      <DropdownMenu>
+      {/* <DropdownMenu>
         <DropdownMenuTrigger className="base-button">Open</DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuLabel>My Account</DropdownMenuLabel>
@@ -27,17 +27,18 @@ export default function DropDown() {
           <DropdownMenuItem>Team</DropdownMenuItem>
           <DropdownMenuItem>Subscription</DropdownMenuItem>
         </DropdownMenuContent>
-      </DropdownMenu>
+      </DropdownMenu> */}
       <HeroFooter />
-      <ManagementBar />
+      <ImageCards />
+      {/* <ManagementBar /> */}
       <p className="text-2xl text-black font-bold italic -rotate-y-12 -rotate-x-45 font-serif mt-20">
         It&apos;s free
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
         <div className="flex items-center justify-center  bg-[#F9F5EF]">
-        <ButtonStyle/>
+          <ButtonStyle />
         </div>
-        <VideoCard
+        {/* <VideoCard
           videoSrc="/assets/clock-clip.mp4" // Replace with your video path/URL
           thumbnail="/images/thumbnail.jpg" // Optional
           title="Sample Video 1"
@@ -49,7 +50,7 @@ export default function DropDown() {
         <VideoCard
           videoSrc="/assets/stone-clip.mp4"
           title="Sample Video 2"
-        />
+        /> */}
       </div>
     </div>
   );

@@ -19,8 +19,13 @@ export default function ImageCards() {
         <Card key={index}>
           <CardHeader>{items.title}</CardHeader>
           <CardContent>
-            <Image src="/assets/stone-clip.mp4" alt="fly"width={800} height={600}
-            className="bg-cover  w-full h-36 rounded-lg" />
+            <Image
+              src="/assets/stone-clip.mp4"
+              alt="fly"
+              width={800}
+              height={600}
+              className="bg-cover  w-full h-36 rounded-lg"
+            />
           </CardContent>
         </Card>
       ))}
